@@ -34,6 +34,25 @@
   margin-right: 0;
 }
 
+.panel {
+  border: none;
+  background-color: #ebebeb;
+  margin-bottom: 30px;
+}
+
+.panel-info .panel-heading {
+  border: none;
+  background-color: #df8a13;
+  color: #ffffff;
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+}
+
+.panel-body {
+  border: 1px solid #dddddd;
+  border-radius: 0 0 4px 4px;
+}
+
 html {
   font-size: 16px;
   overflow-y: scroll;
@@ -70,8 +89,20 @@ body {
   letter-spacing: 0.2em;
 }
 
+.main {
+  margin-bottom: 80.0px;
+}
+
 h1 {
   margin-top: 0;
+}
+
+.left-sidebar {
+  margin-bottom: 80.0px;
+}
+
+.left-sidebar .panel:last-of-type {
+  margin-bottom: 0;
 }
 
 @media (min-width: 576px) {
